@@ -151,3 +151,24 @@
 2025/03/27 17:27:28 [notice] 1496#13872: signal process started
 2025/03/27 17:28:58 [notice] 9680#14240: signal process started
 2025/03/27 17:28:58 [error] 9680#14240: CreateFile() "D:\roadit-project\nginx-1.26.3\bin/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/03/28 11:35:21 [error] 2596#5260: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /admin/ HTTP/1.1", upstream: "http://[::1]:8000/admin/", host: "127.0.0.1"
+2025/03/28 11:35:22 [error] 2596#5260: *9 CreateFile() "C:\Develop\roadit-project\nginx-1.26.3\bin/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/admin/login/?next=/admin/"
+2025/03/28 11:57:20 [error] 2596#5260: *11 CreateFile() "C:\Develop\roadit-project\nginx-1.26.3\bin/html/login" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "127.0.0.1"
+2025/03/28 11:57:20 [error] 2596#5260: *11 CreateFile() "C:\Develop\roadit-project\nginx-1.26.3\bin/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/login"
+2025/03/28 11:57:28 [error] 2596#5260: *11 CreateFile() "C:\Develop\roadit-project\nginx-1.26.3\bin/html/login" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "127.0.0.1"
+2025/03/28 11:57:44 [error] 2596#5260: *11 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /admin/login/?next=/admin/ HTTP/1.1", upstream: "http://[::1]:8000/admin/login/?next=/admin/", host: "127.0.0.1"
+2025/03/28 11:59:07 [error] 2596#5260: *22 CreateFile() "C:\Develop\roadit-project\nginx-1.26.3\bin/html/login" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "127.0.0.1"
+2025/03/28 11:59:11 [error] 2596#5260: *22 CreateFile() "C:\Develop\roadit-project\nginx-1.26.3\bin/html/login" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "127.0.0.1"
+2025/03/28 11:59:21 [error] 2596#5260: *25 CreateFile() "C:\Develop\roadit-project\nginx-1.26.3\bin/html/login" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2025/03/28 11:59:21 [error] 2596#5260: *25 CreateFile() "C:\Develop\roadit-project\nginx-1.26.3\bin/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/login"
+2025/03/28 11:59:46 [error] 2596#5260: *25 CreateFile() "C:\Develop\roadit-project\nginx-1.26.3\bin/html/login" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2025/03/28 12:00:45 [notice] 14656#14356: signal process started
+2025/03/28 12:04:13 [notice] 16204#17052: signal process started
+2025/03/28 12:04:49 [notice] 17108#15940: signal process started
+2025/03/28 12:14:10 [error] 16436#17400: *125 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /develop1/ HTTP/1.1", upstream: "http://[::1]:8000/develop1/", host: "127.0.0.1"
+2025/03/28 12:17:04 [notice] 16944#4600: signal process started
+2025/03/28 12:19:01 [error] 11008#2944: *146 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /develop1/ HTTP/1.1", upstream: "http://[::1]:8000/develop1/", host: "localhost"
+2025/03/28 12:28:13 [notice] 14868#12032: signal process started
+2025/03/28 12:36:04 [notice] 16140#452: signal process started
+2025/03/28 12:36:10 [notice] 1852#9464: signal process started
+2025/03/28 12:36:10 [error] 1852#9464: OpenEvent("Global\ngx_quit_11252") failed (2: The system cannot find the file specified)
