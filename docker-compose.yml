@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+  django:
+    build: ./django
+    container_name: django-dev
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./django:/app
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+    networks:
+      - webnet
+
+  nginx:
+    build: ./nginx-1.26.3
+    container_name: nginx-dev
+    ports:
+      - "80:80"
+    depends_on:
+      - django
+    networks:
+      - webnet
+
+  spring:
+    build: ./spring
+    container_name: spring-dev
+    ports:
+      - "8080:8080"
+    networks:
+      - webnet
+
+networks:
+  webnet:

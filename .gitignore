@@ -1,16 +1,23 @@
+### Docker ###
+*.log
+*.pid
+*.sock
+
+### Django ###
+.env
+*.sqlite3
+*.pyc
+__pycache__/
+staticfiles/
+media/
+
+### Spring ###
 HELP.md
 .gradle
-.DS_Store
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
-
-### Django ###
-.env
-*.pyc
-__pycache__/
-
 
 ### STS ###
 .apt_generated
@@ -42,3 +49,6 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Mac ###
+.DS_Store

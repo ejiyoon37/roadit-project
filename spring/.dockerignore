@@ -1,0 +1,21 @@
+# Gradle build output
+build/
+.gradle/
+
+# 환경파일
+*.env
+.env
+
+# Logs
+*.log
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store

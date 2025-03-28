@@ -172,3 +172,5 @@
 2025/03/28 12:36:04 [notice] 16140#452: signal process started
 2025/03/28 12:36:10 [notice] 1852#9464: signal process started
 2025/03/28 12:36:10 [error] 1852#9464: OpenEvent("Global\ngx_quit_11252") failed (2: The system cannot find the file specified)
+2025/03/28 21:09:07 [error] 8492#12560: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /admin/login/?next=/admin/ HTTP/1.1", upstream: "http://[::1]:8000/admin/login/?next=/admin/", host: "127.0.0.1"
+2025/03/28 21:10:00 [notice] 17588#13560: signal process started
