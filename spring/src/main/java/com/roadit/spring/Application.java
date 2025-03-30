@@ -1,13 +1,13 @@
-package com.roadit.backend_spring;
+package com.roadit.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BackendSpringApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BackendSpringApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
