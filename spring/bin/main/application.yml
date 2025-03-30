@@ -1,0 +1,40 @@
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: backend-spring
+
+
+#  datasource:
+#    driver-class-name: org.mariadb.jdbc.Driver
+#    url: jdbc:mariadb://localhost:3306/roadit_db   # DB명은 너가 만든 걸로 바꿔줘
+#    username: root                                  # MariaDB 사용자명
+#    password: your_password                         # MariaDB 비밀번호
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: update       # 개발 중엔 update, 운영 배포 땐 validate나 none 추천
+#    show-sql: true
+#    database-platform: org.hibernate.dialect.MariaDBDialect
+#
+#  thymeleaf:
+#    cache: false             # 개발 중에는 캐시 끄기
+#    prefix: classpath:/templates/
+#    suffix: .html
+#
+#  mvc:
+#    locale: ko               # 기본 언어
+#    locale-resolver: fixed
+#    format:
+#      date: yyyy-MM-dd
+#      date-time: yyyy-MM-dd HH:mm:ss
+#
+#server:
+#  port: 8080                 # 포트 번호 (기본값이지만 명시해도 좋아)
+#
+#logging:
+#  level:
+#    org.hibernate.SQL: debug
+#    org.springframework.web: info

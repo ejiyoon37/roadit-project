@@ -1,0 +1,9 @@
+# 로그, OS 파일 등
+*.log
+.DS_Store
+
+# Git & IDE
+.git
+.gitignore
+.vscode/
+.idea/
