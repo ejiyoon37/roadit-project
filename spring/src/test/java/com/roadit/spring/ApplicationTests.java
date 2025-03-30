@@ -1,10 +1,10 @@
-package com.roadit.backend_spring;
+package com.roadit.spring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BackendSpringApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {
