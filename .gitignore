@@ -4,11 +4,10 @@
 *.sock
 
 ### Django ###
-.env
+# .env
 *.sqlite3
 *.pyc
 __pycache__/
-staticfiles/
 media/
 
 ### Spring ###
