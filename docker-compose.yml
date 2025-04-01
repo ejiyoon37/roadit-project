@@ -36,5 +36,22 @@ services:
     networks:
       - webnet
 
+  postgres:
+    image: postgres:15
+    container_name: postgres-dev
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: roadit_db
+      POSTGRES_USER: roadit_user
+      POSTGRES_PASSWORD: roadit_pass
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - webnet
+
 networks:
   webnet:
+
+volumes:
+  pgdata:
